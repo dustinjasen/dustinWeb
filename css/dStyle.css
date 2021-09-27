@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#meImage {
+}
+
+.centered {
+  text-align: center!important;
+}
+
+.blockHead {
+  background-color:#D3D3D3;
+  text-align: center!important;
+  min-width: 100%!important;
+  width:100%!important;
+ }
+
+.skill2 {
+  background-color: #f7f7f7!important;
+}
+
+#successIcon {
+  text-align: center;
+  font-size: 2.5rem;
+  color: green;
+  background-color: lightgreen;
+  }
+#successText {
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+  background-color: lightgreen;
+}
+.successBox {
+  position: absolute;
+  top: 0;
+  background-color: lightgreen;
+  padding: 1rem;
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+}
+
+#failIcon {
+  text-align: center;
+  color: darkred;
+  font-size: 2.5rem;
+  background-color: lightcoral;
+}
+#failText {
+  text-align: center;
+  color: darkred;
+  font-size: 1.2rem;
+  background-color: lightcoral;
+}
+.failBox{
+  position: absolute;
+  top: 0;
+  background-color: lightcoral;
+  padding: 1rem;
+  height: auto;
+  padding-top: 10%;
+}
