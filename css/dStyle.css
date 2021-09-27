@@ -4,6 +4,17 @@
 .centered {
   text-align: center!important;
 }
+.allCentered {
+  text-align: center!important;
+  align-content:center!important;
+  align-items: center!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 .blockHead {
   background-color: #D3D3D3;
   text-align: center!important;
@@ -155,7 +166,6 @@ img {
 .modalCustom {
   background-color: rgba(0,0,0,0.30)!important;
 }
-
 .modalClose {
   vertical-align: middle!important;
   color: white;  
