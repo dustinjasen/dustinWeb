@@ -1,29 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
-#meImage {
-}
-
+#meImage {}
 .centered {
   text-align: center!important;
 }
-
 .blockHead {
-  background-color:#D3D3D3;
+  background-color: #D3D3D3;
   text-align: center!important;
   min-width: 100%!important;
-  width:100%!important;
- }
-
+  width: 100%!important;
+  margin-top: 1vh!important;
+  margin-bottom: 1vh!important;
+}
 .skill2 {
   background-color: #f7f7f7!important;
 }
-
 #successIcon {
   text-align: center;
   font-size: 2.5rem;
   color: green;
   background-color: lightgreen;
-  }
+}
 #successText {
   text-align: center;
   font-size: 1.2rem;
@@ -39,7 +36,6 @@
   width: 100%;
   min-width: 100%;
 }
-
 #failIcon {
   text-align: center;
   color: darkred;
@@ -52,7 +48,7 @@
   font-size: 1.2rem;
   background-color: lightcoral;
 }
-.failBox{
+.failBox {
   position: absolute;
   top: 0;
   background-color: lightcoral;
@@ -60,4 +56,110 @@
   height: auto;
   width: 100%;
   min-width: 100%;
+}
+.liveLinks {
+  display: block;
+  width: 100%;
+  text-align: center!important;
+  color: #4F4F4F;
+  background-color: #ECE2DD;
+  padding: 2vh 0vh;
+}
+.liveLinks:hover {
+  display: block;
+  text-align: center!important;
+  color: #ff4500;
+}
+#cvDownload {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2vh 0vw!important;
+  background-color: #E9E9E9;
+  text-decoration: none!important;
+  color: darkgray;
+}
+
+#cvDownload>a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+#cvDownload:hover {
+  background-color: lightgray;
+  color: darkgray!important;
+}
+
+img {
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 16.66%;
+}
+.demo {
+  opacity: 0.6;
+}
+.active, .demo:hover {
+  opacity: 1;
+}
+
+.modalCustom {
+  background-color: rgba(0,0,0,0.30)!important;
+}
+
+.modalClose {
+  vertical-align: middle!important;
+  color: white;  
+  background-color: rgba(0,0,0,0.30)!important;
+  border-radius: 11px;
+  border: none!important;
 }
