@@ -58,5 +58,6 @@
   background-color: lightcoral;
   padding: 1rem;
   height: auto;
-  padding-top: 10%;
+  width: 100%;
+  min-width: 100%;
 }
