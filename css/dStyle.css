@@ -173,3 +173,9 @@ img {
   border-radius: 11px;
   border: none!important;
 }
+
+#clickCerts:hover > img {
+  border: 3px solid #355366;
+  border-radius: 7px;
+  padding: 4px;
+}
