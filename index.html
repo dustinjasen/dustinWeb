@@ -1,414 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Page title -->
-<title>dustin.</title>
-<link rel="shortcut icon" type="image/png" href="favicon.ico">
-<!-- Page description -->
-<meta name="description" content="">
-<!-- Meta -->
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- bootstrap  -->
 
-<!-- style.min.css vendor created file with bootstrap embedded-->
-<link rel="stylesheet" href="css/style.min.css">
-<!-- our style -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/dStyle.css">
+<head>
+  <!-- Page title -->
+  <title>dustin.</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+  <!-- Page description -->
+  <meta name="description" content="" />
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- bootstrap  -->
+
+  <!-- style.min.css vendor created file with bootstrap embedded-->
+  <link rel="stylesheet" href="css/style.min.css" />
+  <!-- our style -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/dStyle.css" />
 </head>
 
-<body class="">
-<div class="page"> 
-  <!-- menu -->
-  <div class="menu-wrapper js-menu"> <span class="menu-trigger js-menu-trigger"> <span class="nav-tip"> Use keyboard for quick navigation. </span> </span>
-    <div class="menu-content">
-      <div class="menu-back">
-        <div class="menu-scroll">
-          <div class="profile"> <img src="img/demos/profile/1.jpg" class="profile-photo" alt="">
-            <div class="profile-info">
-              <h2 class="profile-name"> Dustin Smith </h2>
-              <h3 class="profile-function">Developer</h3>
-              <ul class="profile-list">
-                <li> <i class="fas fa-map-marker-alt"></i>England, GB </li>
-              </ul>
+<body>
+  <div class="page">
+    <!-- menu -->
+    <div class="menu-wrapper js-menu">
+      <span class="menu-trigger js-menu-trigger">
+        <span class="nav-tip"> Use keyboard for quick navigation. </span>
+      </span>
+      <div class="menu-content">
+        <div class="menu-back">
+          <div class="menu-scroll">
+            <div class="profile">
+              <img src="img/profilePic.jpg" class="profile-photo" alt="" />
+              <div class="profile-info">
+                <h2 class="profile-name">Dustin Smith</h2>
+                <h3 class="profile-function"></h3>
+                <ul class="profile-list">
+                  <li><i class="fas fa-map-marker-alt"></i>England, GB</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <ul class="menu">
-            <li class="menu-item"> <a class="js-goto" data-target="#about-me" href="#">About me</a> </li>
-            <li class="menu-item"> <a class="js-goto" data-target="#skills" href="#">Skills</a> </li>
-            <li class="menu-item"> <a class="js-goto" data-target="#experience" href="#">Experience</a> </li>
-            <li class="menu-item"> <a class="js-goto" data-target="#portfolio" href="#">Portfolio</a> </li>
-            <li class="menu-item"> <a class="js-goto" data-target="#contacts" href="#">Contacts</a> </li>
-          </ul>
-        </div>
-      </div>
-      <div class="menu-cover js-cover"></div>
-    </div>
-  </div>
-  <!-- end of menu -->
-  <div role="main" class="section-main">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="cv-content wrapper js-app"> 
-            <!-- main page -->
-            <section class="main-page" id="main-page">
-              <div data-target="#about-me" class="cv-tile js-tile top-left js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content">
-                  <h5 class="tile-title">About me</h5>
-                </div>
-              </div>
-              <div data-target="" class="cv-tile js-tile top-center js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content"> </div>
-              </div>
-              <div data-target="#experience" class="cv-tile js-tile top-right js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content">
-                  <h5 class="tile-title">Experience</h5>
-                </div>
-              </div>
-              <div data-target="" class="cv-tile js-tile center-left js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content"> </div>
-              </div>
-              <div data-target="#portfolio" class="cv-tile js-tile center-center js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content">
-                  <h5 class="tile-title">Portfolio</h5>
-                </div>
-              </div>
-              <div data-target="" class="cv-tile js-tile center-right js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content"> </div>
-              </div>
-              <div data-target="#skills" class="cv-tile js-tile bottom-left js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content">
-                  <h5 class="tile-title">Skills</h5>
-                </div>
-              </div>
-              <div data-target="#" class="cv-tile js-tile bottom-center js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content"> </div>
-              </div>
-              <div data-target="#contacts" class="cv-tile js-tile bottom-right js-goto"> <img src="img/placeholder.png" alt="" class="placeholder-img">
-                <div class="cv-tile-content">
-                  <h5 class="tile-title">Contact</h5>
-                </div>
-              </div>
-            </section>
-            <!-- end of main page --> 
-            <!-- about-me page -->
-            <section class="section js-section " id="about-me">
-              <div class="js-scroll-bar scroll-bar">
-                <div class="handle">
-                  <div class="mousearea"></div>
-                </div>
-              </div>
-              <div class="js-scroll-area section-content">
-                <div>
-                  <h2 class="section-title js-animated-content"> Story. </h2>
-                  <h3 class="section-subtitle js-animated-content">it's short. </h3>
-                  <img src="img/road.jpg" class="featured-image js-animated-content allCentered" alt="">
-                  <div class="page-content-tight js-animated-content">
-                    <p class="page-text"> started in sports. migrated to the UK. discovered a passion for technology by studying. but used it in recruitment.</p>
-                    <p class="page-text"> 10 years later. worked in EMEA and APAC. clients in consultancy, commodities and media. direction changed.  </p>
-                    <p class="page-text"> managed technology companies. but coding was fun. decided to develop professionally. needed to study.  </p>
-                    <p class="page-text"> so, I studied to build simple useful stuff. </p>
-                    <br>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- end of about-me --> 
-            <!-- skills page -->
-            <section class="section js-section " id="skills">
-              <div class="js-scroll-bar scroll-bar">
-                <div class="handle">
-                  <div class="mousearea"></div>
-                </div>
-              </div>
-              <div class="js-scroll-area section-content">
-                <div>
-                  <h2 class="section-title js-animated-content"> Skills. </h2>
-                  <h3 class="section-subtitle js-animated-content">constantly developing. </h3>
-                  <div class="page-content js-animated-content">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <h4 class="category-title centered blockHead">languages.</h4>
-                        <div class="row centered skill2">
-                          <div class="col"> <img src="img/logos/html.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/php.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/css.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/sql.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/js.png" alt=""> </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <h4 class="category-title centered blockHead">libraries.</h4>
-                        <div class="row centered skill2">
-                          <div class="col"> <img src="img/logos/placeR.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/jquery.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/placeR.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/bootstrap.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/placeR.png" alt=""> </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <h4 class="category-title centered blockHead">studied.</h4>
-                        <div class="row centered skill2">
-                          <div class="col"> <img src="img/logos/csharp.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/java.png" alt=""> </div>
-                          <div class="col" id="clickCerts"><img src="img/logos/codeCad.png" alt="" > </div>
-                          <div class="col"> <img src="img/logos/python.png" alt=""> </div>
-                          <div class="col"> <img src="img/logos/react.png" alt=""> </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- end of skills --> 
-            <!-- experience page -->
-            <section class="section js-section " id="experience">
-              <div class="js-scroll-bar scroll-bar">
-                <div class="handle">
-                  <div class="mousearea"></div>
-                </div>
-              </div>
-              <div class="js-scroll-area section-content">
-                <div>
-                  <h2 class="section-title js-animated-content"> Work. </h2>
-                  <h3 class="section-subtitle js-animated-content"> <span style="color: lightgray">sports&emsp; > &emsp;recruitment&emsp; > &emsp;technology management&emsp; > </span>&emsp;technology development. </h3>
-                  <div id="cvDownload" class="js-animated-content"><a href="#">download cv</a></div>
-                  <div class="page-content js-animated-content">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="row">
-                          <div class="col-md-12"> 
-                            <!-- experience slider -->
-                            <div class="experience-slider">
-                              <div class="experience-list js-experience-slider owl-carousel">
-                                <div class="experience-list-item item"> <img src="img/demos/brands/1.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quas omnis quibusdam odit odio, sit tenetur? At animi asperiores consequatur, quae. Itaque, magni veniam obcaecati ea quae ut. Dicta, nemo! </p>
-                                </div>
-                                <div class="experience-list-item item"> <img src="img/demos/brands/2.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti unde, neque quibusdam dolore quasi, labore dignissimos reprehenderit culpa delectus dolores eum facere natus ratione minima possimus. Itaque voluptas, id alias! </p>
-                                </div>
-                                <div class="experience-list-item item"> <img src="img/demos/brands/3.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus similique, ipsam eaque pariatur recusandae quia quae aut. Voluptatibus saepe a ad fugit ab aut! Eaque numquam quos, totam. Exercitationem, omnis? </p>
-                                </div>
-                                <div class="experience-list-item item"> <img src="img/demos/brands/4.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ad aperiam tempore, dignissimos commodi quis, cumque magnam, vero recusandae animi veniam! Aliquam facere dolor libero illum, voluptatem ducimus. Consequatur, quidem. </p>
-                                </div>
-                                <div class="experience-list-item item"> <img src="img/demos/brands/1.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum dolore labore ex vel rerum perferendis omnis ut aspernatur maxime. Distinctio tenetur vero deserunt sed inventore iste voluptatibus necessitatibus repellendus. </p>
-                                </div>
-                                <div class="experience-list-item item"> <img src="img/demos/brands/2.png" class="experience-brand" alt="">
-                                  <h4 class="experience-period">Dec. 2014 - Sep. 2015</h4>
-                                  <p class="experience-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatibus, dolore. Ipsum accusamus consequatur in veritatis dolorem sapiente nostrum reprehenderit ullam quo. Enim officiis hic eveniet nostrum excepturi quisquam,
-                                    explicabo. </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- end of experience slider --> 
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- end of experience --> 
-            <!-- portfolio page -->
-            <section class="section js-section " id="portfolio">
-              <div class="js-scroll-bar scroll-bar">
-                <div class="handle">
-                  <div class="mousearea"></div>
-                </div>
-              </div>
-              <div class="js-scroll-area section-content">
-                <div>
-                  <h2 class="section-title js-animated-content"> Portfolio. </h2>
-                  <h3 class="section-subtitle js-animated-content"> recent projects. </h3>
-                  <div class="page-content js-animated-content">
-                    <div class="row">
-                      <div class="col-md-12"> 
-                        <!-- portfolio -->
-                        <div class="row">
-                          <div class="col-md-4"> <a class="liveLinks" href="http://dir.dustinsmith.tech" target="_blank">see it.</a>
-                            <div class="portfolio-item-preview-wrapper"> <a href="img/folio/mobileCRM2.png" data-lightbox="vitiliginous" class="js-portfolio-zoom"></a>
-                              <div class="portfolio-gallery"> <a href="img/folio/mobileCRM1.png" data-lightbox="vitiliginous" class="js-portfolio-zoom"></a> <a href="img/folio/desktopCRM1.png" data-lightbox="vitiliginous" class="js-portfolio-zoom"></a> </div>
-                              <img src="img/placeholder-square.png" class="portfolio-placeholder" alt="Square Placeholder"> <img src="img/folio/mobileCRM1.png" class="portfolio-item-preview js-portfolio-preview" alt="">
-                              <div class="portfolio-hover">
-                                <h4 class="portfolio-title">Company Directory</h4>
-                                <p class="portfolio-category"><span style="text-decoration: underline">- Data App -</span><br>
-                                  CRUD application / directory for mulitple users [mock data displayed]</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4"> <a class="liveLinks centered" href="http://specks.dustinsmith.tech" target="_blank">see it.</a>
-                            <div class="portfolio-item-preview-wrapper"> <a href="img/folio/mapmobile1.png" data-lightbox="desiredly" class="js-portfolio-zoom"></a>
-                              <div class="portfolio-gallery"> <a href="img/folio/mapDesktop1.png" data-lightbox="desiredly" class="js-portfolio-zoom"></a> <a href="img/folio/mapDesktop2.png" data-lightbox="desiredly" class="js-portfolio-zoom"></a> </div>
-                              <img src="img/placeholder-square.png" class="portfolio-placeholder" alt="Square Placeholder"> <img src="img/folio/mapDesktop2.png" class="portfolio-item-preview js-portfolio-preview" alt="">
-                              <div class="portfolio-hover">
-                                <h4 class="portfolio-title">World Gazette</h4>
-                                <p class="portfolio-category"><span style="text-decoration: underline">- Education App -</span><br>
-                                  Multi function map that displays all you need to know about a country</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="portfolio-item-preview-wrapper"> <a href="img/demos/portfolio/designer/3/1.jpg" data-lightbox="impartible" class="js-portfolio-zoom"></a>
-                              <div class="portfolio-gallery"> <a href="img/demos/portfolio/designer/3/2.jpg" data-lightbox="impartible" class="js-portfolio-zoom"></a> <a href="img/demos/portfolio/designer/3/3.jpg" data-lightbox="impartible" class="js-portfolio-zoom"></a> </div>
-                              <img src="img/placeholder-square.png" class="portfolio-placeholder" alt="Square Placeholder"> <img src="img/demos/portfolio/designer/3.jpg" class="portfolio-item-preview js-portfolio-preview" alt="">
-                              <div class="portfolio-hover">
-                                <h4 class="portfolio-title">holder.</h4>
-                                <p class="portfolio-category">Blog</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end of portfolio --> 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- end of portfolio --> 
-            <!-- contacts page -->
-            <section class="section js-section " id="contacts">
-              <div class="js-scroll-bar scroll-bar">
-                <div class="handle">
-                  <div class="mousearea"></div>
-                </div>
-              </div>
-              <div class="js-scroll-area section-content">
-                <div>
-                  <h2 class="section-title js-animated-content"> Message. </h2>
-                  <h3 class="section-subtitle js-animated-content"> I'll reply. </h3>
-                  <div class="page-content js-animated-content">
-                    <div class="row">
-                      <div class="col-md-6"> 
-                        
-                        <!-- social icons -->
-                        <ul class="social helper mb30">
-                          <li class="social-item"> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
-                        </ul>
-                        <!-- end of social icons -->
-                        <h4 class="category-title"> Availability: October 2021 </h4>
-                      </div>
-                      <div class="col-md-6"> 
-                        
-                        <!-- contact form -->
-                        <div class="contact-form">
-                          <form action="#" id="contactForm">
-                            <ul class="contacts-inputs">
-                              <li class="contacts-item">
-                                <input placeholder="Full Name" type="text" id="fullname" name="fullname" class="contacts-input form-control" required>
-                              </li>
-                              <li class="contacts-item">
-                                <input placeholder="Email" type="email" id="email" name="email" class="contacts-input form-control" required>
-                              </li>
-                              <li class="contacts-item">
-                                <textarea placeholder="Message" type="text" id="message" name="message" class="contacts-input form-control"></textarea>
-                                <button class="form-button" type="submit">Send</button>
-                              </li>
-                            </ul>
-                          </form>
-                        </div>
-                        <!-- end of contact form --> 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- end of contacts --> 
-            <img src="img/me.jpg" id="meImage" class="js-main-image main-image" alt="Picture of dustin" style="opacity: 0.5;"> 
-            <!-- site navigation -->
-            <div class="section-nav js-section-nav">
-              <div class="close-section section-nav-elem js-goto" data-target="#main-page"></div>
-              <div class="next-section section-nav-elem js-next"></div>
-              <div class="prev-section section-nav-elem js-prev"></div>
-            </div>
-            <!-- end of site navigation --> 
+            <ul class="menu">
+              <li class="menu-item">
+                <a class="js-goto" data-target="#about-me" href="#">About me</a>
+              </li>
+              <li class="menu-item">
+                <a class="js-goto" data-target="#skills" href="#">Skills</a>
+              </li>
+              <li class="menu-item">
+                <a class="js-goto" data-target="#portfolio" href="#">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a class="js-goto" data-target="#contacts" href="#">Contacts</a>
+              </li>
+            </ul>
           </div>
         </div>
+        <div class="menu-cover js-cover"></div>
       </div>
     </div>
-  </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="codeCerts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modalCustom modal-lg" role="document">
-      <div class="modal-content modalCustom">
-        <div class="modal-body modalCustom">
-          <div class="container">
-            <button type="button" class="close modalClose float-end" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-            <div class="mySlides">
-              <div class="numbertext">1 / 14</div>
-              <img src="img/certs/Web Development Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">2 / 14</div>
-              <img src="img/certs/HTML Cert-1.jpg" style="width:100%; height: 100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">3 / 14</div>
-              <img src="img/certs/cCert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">4 / 14</div>
-              <img src="img/certs/PHP Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">5 / 14</div>
-              <img src="img/certs/Front End App React-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">6 / 14</div>
-              <img src="img/certs/Java Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">7 / 14</div>
-              <img src="img/certs/JavaScript Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">8 / 14</div>
-              <img src="img/certs/JavaScript2 Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">9 / 14</div>
-              <img src="img/certs/SQL Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">10 / 14</div>
-              <img src="img/certs/JQuery Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">11 / 14</div>
-              <img src="img/certs/Python 3 Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">12 / 14</div>
-              <img src="img/certs/CLI Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">13 / 14</div>
-              <img src="img/certs/Git Cert-1.jpg" style="width:100%"> </div>
-            <div class="mySlides">
-              <div class="numbertext">14 / 14</div>
-              <img src="img/certs/React Cert-1.jpg" style="width:100%"> </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next" onclick="plusSlides(1)">❯</a> </div>
+    <!-- end of menu -->
+    <div role="main" class="section-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="cv-content wrapper js-app h100">
+              <!-- main page -->
+              <section class="main-page" id="main-page">
+                <div data-target="#about-me" class="cv-tile js-tile top-left js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content">
+                    <h5 class="tile-title">About me</h5>
+                  </div>
+                </div>
+                <div data-target="" class="cv-tile js-tile top-center js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content"></div>
+                </div>
+                <div data-target="#experience" class="cv-tile js-tile top-right js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content">
+                    <h5 class="tile-title">Experience</h5>
+                  </div>
+                </div>
+                <div data-target="" class="cv-tile js-tile center-left js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content"></div>
+                </div>
+                <div data-target="#portfolio" class="cv-tile js-tile center-center js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content">
+                    <h5 class="tile-title">Portfolio</h5>
+                  </div>
+                </div>
+                <div data-target="" class="cv-tile js-tile center-right js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content"></div>
+                </div>
+                <div data-target="#skills" class="cv-tile js-tile bottom-left js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content">
+                    <h5 class="tile-title">Skills</h5>
+                  </div>
+                </div>
+                <div data-target="#" class="cv-tile js-tile bottom-center js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content"></div>
+                </div>
+                <div data-target="#contacts" class="cv-tile js-tile bottom-right js-goto">
+                  <img src="img/placeholder.png" alt="" class="placeholder-img" />
+                  <div class="cv-tile-content">
+                    <h5 class="tile-title">Contact</h5>
+                  </div>
+                </div>
+              </section>
+              <!-- end of main page -->
+              <!-- about-me page -->
+              <section class="section js-section" id="about-me">
+                <div class="js-scroll-bar scroll-bar">
+                  <div class="handle">
+                    <div class="mousearea"></div>
+                  </div>
+                </div>
+                <div class="js-scroll-area section-content h100">
+                  <div>
+                    <h2 class="section-title js-animated-content">
+                      hi there :&#41;<br> i'm dustin, a web developer
+                    </h2>
+                    <h3 class="section-subtitle js-animated-content"></h3>
+                    <img src="img/story.png" class="featured-image js-animated-content allCentered" alt="" />
+                    <div class="page-content-tight js-animated-content">
+                      <p class="page-text">
+                        just a guy who really enjoys building easy to use web apps
+                      </p>
+
+                      <p class="page-text">
+                        love react! but i also know a few other ways to hack
+                      </p>
+
+                      <p class="page-text">
+                        btw, you can use the keyboard arrows to browse, use your mouse, or swipe up...
+                      </p>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- end of about-me -->
+              <!-- skills page -->
+              <section class="section js-section" id="skills">
+                <div class="js-scroll-bar scroll-bar">
+                  <div class="handle">
+                    <div class="mousearea"></div>
+                  </div>
+                </div>
+                <div class="js-scroll-area section-content h100">
+                  <div>
+                    <h2 class="section-title js-animated-content">
+                      i build with these...
+                    </h2>
+                    <div class="js-animated-content w100">
+                      <div class="grid-container">
+
+                        <div class="col codeLogo codeLogoLangs gridTopLeft"><img class="codeLogoImg"
+                            src="img/logos/html5L.png">
+                        </div>
+                        <div class="col codeLogo gridTopLeftText">
+                          <p class="codeText">&#60;p&#62;<br>&nbsp;&nbsp;html5<br>&#60;&#47;p&#62;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLangs gridTopMiddle"><img class="codeLogoImg"
+                            src="img/logos/css3L.png">
+                        </div>
+
+                        <div class="col codeLogo gridTopMiddleText">
+                          <p class="codeText">.css &#123;<br>&nbsp;&nbsp;three&#59;<br>&#125;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLangs gridTopRight"><img class="codeLogoImg"
+                            src="img/logos/javascriptL.png"></div>
+
+                        <div class="col codeLogo gridTopRightText">
+                          <p class="codeText">&#40;&#41;&nbsp;&#61;&#62;&nbsp;&#123;javascript&#125;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLangs gridMiddleLeft"><img class="codeLogoImg"
+                            src="img/logos/phpL.png">
+                        </div>
+
+                        <div class="col codeLogo gridMiddleLeftText">
+                          <p class="codeText">&#60;?php</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLangs gridMiddleMiddle"><img class="codeLogoImg"
+                            src="img/logos/mysqlL.png">
+                        </div>
+
+                        <div class="col codeLogo gridMiddleMiddleText">
+                          <p class="codeText">`mysql`&nbsp;&#40;&#41;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLibs gridMiddleRight"><img class="codeLogoImg"
+                            src="img/logos/reactL.png">
+                        </div>
+
+                        <div class="col codeLogo gridMiddleRightText">
+                          <p class="codeText">&#60;react&nbsp;&#47;&#62;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLibs gridBottomLeft"><img class="codeLogoImg"
+                            src="img/logos/jqueryL.png">
+                        </div>
+
+                        <div class="col codeLogo gridBottomLeftText">
+                          <p class="codeText">$&#40;'#jquery'&#41;</p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLibs gridBottomMiddle"><img class="codeLogoImg"
+                            src="img/logos/bootstrapL.png"></div>
+
+                        <div class="col codeLogo gridBottomMiddleText">
+                          <p class="codeTextBootstrap">
+                            &#60;div&#62;<br>&nbsp;&nbsp;&#60;div&#62;<br>&nbsp;&nbsp;&nbsp;&nbsp;&#60;div&#62;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;div&#62;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bootstrap
+                          </p>
+                        </div>
+
+                        <div class="col codeLogo codeLogoLibs gridBottomRight"><img class="codeLogoImg"
+                            src="img/logos/mernL.png">
+                        </div>
+
+                        <div class="col codeLogo gridBottomRightText">
+                          <p class="codeText">_npm mern</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- end of skills -->
+
+              <!-- portfolio page -->
+              <section class="section js-section" id="portfolio">
+                <div class="js-scroll-bar scroll-bar">
+                  <div class="handle">
+                    <div class="mousearea"></div>
+                  </div>
+                </div>
+                <div class="js-scroll-area section-content h100">
+                  <div>
+                    <h2 class="section-title js-animated-content">...and this is some of my work</h2>
+                    <div class="page-content js-animated-content">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- portfolio -->
+                          <div class="row">
+                            <div class="col-md-4">
+                              <a class="liveLinks" href="http://dir.dustinsmith.tech" target="_blank">see the database
+                                app</a>
+                              <div class="portfolio-item-preview-wrapper">
+                                <a href="img/folio/mobileCRM2.png" data-lightbox="vitiliginous"
+                                  class="js-portfolio-zoom"></a>
+                                <div class="portfolio-gallery">
+                                  <a href="img/folio/mobileCRM1.png" data-lightbox="vitiliginous"
+                                    class="js-portfolio-zoom"></a>
+                                  <a href="img/folio/desktopCRM1.png" data-lightbox="vitiliginous"
+                                    class="js-portfolio-zoom"></a>
+                                </div>
+                                <img src="img/placeholder-square.png" class="portfolio-placeholder"
+                                  alt="Square Placeholder" />
+                                <img src="img/folio/mobileCRM1.png" class="portfolio-item-preview js-portfolio-preview"
+                                  alt="" />
+                                <div class="portfolio-hover">
+                                  <h4 class="portfolio-title">
+                                    Company Directory
+                                  </h4>
+                                  <p class="portfolio-category">
+                                    <span style="text-decoration: underline">- Database App -</span><br />
+                                    Create, Read, Update and Delete database application built for personnel management
+                                    in html, php and javascript
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <a class="liveLinks centered" href="http://specks.dustinsmith.tech" target="_blank">see
+                                the map app</a>
+                              <div class="portfolio-item-preview-wrapper">
+                                <a href="img/folio/mapmobile1.jpg" data-lightbox="desiredly"
+                                  class="js-portfolio-zoom"></a>
+                                <div class="portfolio-gallery">
+                                  <a href="img/folio/mapDesktop1.jpg" data-lightbox="desiredly"
+                                    class="js-portfolio-zoom"></a>
+                                  <a href="img/folio/mapDesktop2.jpg" data-lightbox="desiredly"
+                                    class="js-portfolio-zoom"></a>
+                                </div>
+                                <img src="img/placeholder-square.png" class="portfolio-placeholder"
+                                  alt="Square Placeholder" />
+                                <img src="img/folio/mapDesktop2.jpg" class="portfolio-item-preview js-portfolio-preview"
+                                  alt="" />
+                                <div class="portfolio-hover">
+                                  <h4 class="portfolio-title">
+                                    World encyclopedia
+                                  </h4>
+                                  <p class="portfolio-category">
+                                    <span style="text-decoration: underline">- Learn the world -</span><br />
+                                    A comprehensive web app that displays everything you need to know about a country
+                                    built in javascript
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <a class="liveLinks centered" href="https://myhealthward.herokuapp.com/"
+                                target="_blank">see
+                                the social media app</a>
+                              <div class="portfolio-item-preview-wrapper">
+                                <a href="img/folio/mhwDollyScreen.jpg" data-lightbox="desiredly"
+                                  class="js-portfolio-zoom"></a>
+                                <div class="portfolio-gallery">
+                                  <a href="img/folio/mhwHomeScreen.jpg" data-lightbox="desiredly"
+                                    class="js-portfolio-zoom"></a>
+                                  <a href="img/folio/mhwLoginScreen.jpg" data-lightbox="desiredly"
+                                    class="js-portfolio-zoom"></a>
+                                </div>
+                                <img src="img/placeholder-square.png" class="portfolio-placeholder"
+                                  alt="Square Placeholder" />
+                                <img src="img/folio/mhwDollyScreen.jpg"
+                                  class="portfolio-item-preview js-portfolio-preview" alt="" />
+                                <div class="portfolio-hover">
+                                  <h4 class="portfolio-title">
+                                    myHealth Ward [DESKTOP ONLY]
+                                  </h4>
+                                  <p class="portfolio-category">
+                                    <span style="text-decoration: underline">- Connect with specialists -</span><br />
+                                    A health networking for trainers, physios, chiros and more; built with the
+                                    mern stack
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- end of portfolio -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- end of portfolio page -->
+              <!-- contacts page -->
+              <section class="section js-section" id="contacts">
+                <div class="js-scroll-bar scroll-bar">
+                  <div class="handle">
+                    <div class="mousearea"></div>
+                  </div>
+                </div>
+
+                <div class="js-scroll-area section-content h100">
+                  <div>
+                    <h2 class="section-title js-animated-content">
+                      thanks for visiting, don't be a stranger
+                    </h2>
+                    <div class="page-content js-animated-content">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h4 class="category-title"></h4>
+                        </div>
+                        <div class="col allCentered">
+                          <!-- contact form -->
+                          <div class="contact-form">
+                            <form action="#" id="contactForm">
+                              <ul class="contacts-inputs">
+                                <li class="contacts-item">
+                                  <input placeholder="what's your name?" type="text" id="fullname" name="fullname"
+                                    class="contacts-input form-control" required />
+                                </li>
+                                <li class="contacts-item">
+                                  <input placeholder="put your email addy here..." type="email" id="email" name="email"
+                                    class="contacts-input form-control" required />
+                                </li>
+                                <li class="contacts-item">
+                                  <input placeholder="confirm your email please :&#41;" type="email" id="emailConfirm"
+                                    name="emailConfirm" class="contacts-input form-control" required />
+                                </li>
+                                <li class="contacts-item">
+                                  <textarea placeholder="write, tap or type here..." type="text" id="message"
+                                    name="message" class="contacts-input form-control"></textarea>
+                                  <button class="form-button" type="submit">
+                                    Send
+                                  </button>
+                                </li>
+                              </ul>
+                            </form>
+                          </div>
+                          <!-- end of contact form -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- end of contacts -->
+              <img class="js-main-image main-image" src="img/me.jpg" id="meImage" />
+              <!-- site navigation -->
+              <div class="section-nav js-section-nav">
+                <div class="close-section section-nav-elem js-goto" data-target="#main-page"></div>
+                <div class="next-section section-nav-elem js-next"></div>
+                <div class="prev-section section-nav-elem js-prev"></div>
+              </div>
+              <!-- end of site navigation -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="codeCerts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modalCustom modal-lg" role="document">
+        <div class="modal-content modalCustom">
+          <div class="modal-body modalCustom">
+            <div class="container">
+              <button type="button" class="close modalClose float-end" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="mySlides">
+                <div class="numbertext">1 / 14</div>
+                <img src="img/certs/Web Development Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">2 / 14</div>
+                <img src="img/certs/HTML Cert-1.jpg" style="width: 100%; height: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">3 / 14</div>
+                <img src="img/certs/cCert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">4 / 14</div>
+                <img src="img/certs/PHP Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 14</div>
+                <img src="img/certs/Front End App React-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">6 / 14</div>
+                <img src="img/certs/Java Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">7 / 14</div>
+                <img src="img/certs/JavaScript Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">8 / 14</div>
+                <img src="img/certs/JavaScript2 Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">9 / 14</div>
+                <img src="img/certs/SQL Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">10 / 14</div>
+                <img src="img/certs/JQuery Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">11 / 14</div>
+                <img src="img/certs/Python 3 Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">12 / 14</div>
+                <img src="img/certs/CLI Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">13 / 14</div>
+                <img src="img/certs/Git Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">14 / 14</div>
+                <img src="img/certs/React Cert-1.jpg" style="width: 100%" alt="" />
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of website -->
   </div>
-  
-  <!-- end of website --> 
-</div>
-<script src="js/all.js"></script> 
-<script src="js/ourJs.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/bootstrap.bundle.min.js"></script> 
-<script src="js/jquery-3.6.0.min.js"></script> 
-<script src="https://kit.fontawesome.com/979209c926.js" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+  <script src="js/ourJs.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/979209c926.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

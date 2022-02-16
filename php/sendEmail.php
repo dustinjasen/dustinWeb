@@ -4,8 +4,8 @@ ini_set( 'display_errors', 1 );
 ini_set( 'display_startup_errors', 1 );
 error_reporting( E_ALL );
 
-use PHPMailer\ PHPMailer\ PHPMailer;
-use PHPMailer\ PHPMailer\ Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 require '../php/PHPMailer/src/Exception.php';
 require '../php/PHPMailer/src/PHPMailer.php';
@@ -36,14 +36,8 @@ try {
   //Recipients
   $mail->setFrom( $noReply, $fromWho );
   $mail->addAddress( $noReply, 'Dustin' ); //Add a recipient
-  //$mail->addAddress('ellen@example.com');  //Name is optional
-  //$mail->addReplyTo('info@example.com', 'Information');
   $mail->addCC( $ccSender );
   $mail->addBCC( $toMe );
-
-  //Attachments
-  //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-  //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
   //Content
   $mail->isHTML( true ); //Set email format to HTML
